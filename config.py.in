@@ -1,0 +1,20 @@
+# WiFi AP credentials
+WIFI_SSID = 'wifi_ssid'
+WIFI_PASSWORD = 'wifi_password'
+
+# String template to build URL for metrics sent
+URL_TEMPLATE = 'https://api.thingspeak.com/update?api_key=<api_key>&field1={t}&field2={p}&field3={h}'
+
+# Time in seconds between measurements
+CYCLE_TIME = 300  # 300 sec = 5 min
+
+# UTC offset of current timezone
+UTC_OFFSET = 3  # UTC+3
+
+# Pins on the board used by I2C bus
+SCL_PIN = 5  # D1
+SDA_PIN = 4  # D2
+
+# I2C addresses of sensor and display
+BME280_I2C_ADDR = 0x76
+DISPLAY_I2C_ADDR = 0x3c

@@ -1,0 +1,2 @@
+micropython-urllib.urequest
+micropython-bme280
